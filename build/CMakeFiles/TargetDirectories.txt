@@ -1,0 +1,3 @@
+C:/Users/swell/source/repos/oop_laba1/build/CMakeFiles/oop_laba1.dir
+C:/Users/swell/source/repos/oop_laba1/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/swell/source/repos/oop_laba1/build/CMakeFiles/ZERO_CHECK.dir

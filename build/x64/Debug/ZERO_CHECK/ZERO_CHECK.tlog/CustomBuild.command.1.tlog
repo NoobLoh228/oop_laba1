@@ -1,0 +1,10 @@
+^C:\USERS\SWELL\SOURCE\REPOS\OOP_LABA1\BUILD\CMAKEFILES\586A2B8429589B4E17CD56AAE4DD2ECE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/swell/source/repos/oop_laba1 -BC:/Users/swell/source/repos/oop_laba1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/swell/source/repos/oop_laba1/build/oop_laba1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
