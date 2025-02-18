@@ -8,6 +8,6 @@ int main() {
     int lhs = 5;
     int rhs = 3;
 
-    std::cout << add(lhs, rhs) << std::endl;
-    std::cout << subtract(lhs, rhs) << std::endl;
+    std::cout << add(lhs, rhs) << "/t";
+    std::cout << subtract(lhs, rhs) << "/t";
 }
