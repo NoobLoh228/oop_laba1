@@ -2,6 +2,7 @@
 
 int add(int lhs, int rhs);
 int subtract(int lhs, int rhs);
+int multiply(int lhs, int rhs);
 
 int main() {
 
@@ -10,4 +11,6 @@ int main() {
 
     std::cout << add(lhs, rhs) << "/t";
     std::cout << subtract(lhs, rhs) << "/t";
+    std::cout << multiply(lhs, rhs) << "/t";
+
 }
